@@ -16,6 +16,7 @@ public class CucumberDatatableStepDefs extends Base{
     public void user_is_on_the_facebook_homepage_something(String fh) throws Throwable {
 		driver = initDriver();
         driver.get(fh);
+        System.out.println("Driver initialized and ready");
     }
 
 	    @When("^User enters anyset from the following data$")
